@@ -22,4 +22,6 @@ export const colors = {
     'brown': '#795548',
     'grey': '#9e9e9e',
     'blueGrey': '#607d8b',
+
+    'textColorPrimary': '#333333',
 };
