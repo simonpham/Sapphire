@@ -3,6 +3,8 @@ export const colors = {
     'white': '#ffffff',
     'black': '#000000',
 
+    'accent': '#19181a',
+
     'red': '#f44336',
     'pink': '#e91e63',
     'purple': '#9c27b0',

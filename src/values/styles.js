@@ -3,6 +3,9 @@ import {colors} from "./colors";
 import {dimens} from "./dimens";
 
 export const styles = StyleSheet.create({
+    button: {
+
+    },
     container: {
         flex: 1,
         justifyContent: 'center',
