@@ -37,7 +37,6 @@ export class AlertModal extends Component {
                         this.props.onDismiss();
                     }}>
                     <View style={styles.transparentScreenStyle}>
-                        <View/>
                         <View style={{flex: 0.42, alignItems: 'center', margin: 27, opacity: 1}}>
                             <ImageBackground
                                 source={this.props.background}
@@ -76,9 +75,10 @@ export class AlertModal extends Component {
                                 </View>
                             </ImageBackground>
                         </View>
-                        <View/>
                     </View>
                 </Modal>
+
+                {/*This button is for testing*/}
                 <TouchableOpacity
                     onPress={() => {
                         this.setModalVisible(true);
@@ -125,7 +125,7 @@ const styles = StyleSheet.create(
         },
         transparentScreenStyle:{
             flex: 1,
-            justifyContent: 'space-between',
+            justifyContent: 'center',
             backgroundColor: 'rgba(0, 0, 0, 0.5)',
             top: 0
         }
